@@ -27,6 +27,7 @@ SELECT * FROM sightings WHERE location LIKE '%Pass%';
 এই কোয়েরি কেবল সেই সাইটিংস দেখাবে যেখানে লোকেশন নামের মধ্যে "Pass" আছে।
 WHERE ছাড়া সব রেকর্ড রিটার্ন হয়, যা প্রয়োজনীয় ফলাফল থেকে বিভ্রান্ত করতে পারে।
 
+
 9. Explain the GROUP BY clause and its role in aggregation operations.
 GROUP BY একাধিক রেকর্ডকে নির্দিষ্ট কলামের উপর ভিত্তি করে গ্রুপ করে এবং সেই গ্রুপগুলোর উপর Aggregate Function (COUNT(), SUM(), AVG()) প্রয়োগ করতে সাহায্য করে।
 উদাহরণ:
